@@ -1,0 +1,8 @@
+body {
+  line-height: 2.5;
+}
+
+.todotext {
+  display: flex;
+  justify-content: center;
+}
