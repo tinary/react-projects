@@ -114,3 +114,7 @@ class App extends Component {
 }
 
 export default App;
+
+
+// Notes from Nick:
+// how to not let the user input blank task, and symbols
