@@ -11,8 +11,8 @@ test('Venues Component renders the venue and location inside it', () => {
       location={venues.location}
     />
   );
-  const li = wrapper.find('.venue-list');
-  expect(li.text()).toBe('Kitchener');
+  const p = wrapper.find('.venue-list');
+  expect(p.text()).toBe('Kitchener');
 });
 
 
