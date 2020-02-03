@@ -32,6 +32,7 @@ class ExploreForm extends Component {
   };
 
 
+
   render() {
 
     return (
@@ -39,7 +40,7 @@ class ExploreForm extends Component {
         <h1 className="m-3">Find Places</h1>
         <Row className="m-5 mx-auto">
           <div className="mx-auto">
-            <form onSubmit={this.handleSubmit} className="input-group">
+            <form method='POST' action='/search-location'  className="input-group">
               <Col md="auto p-2">
                 <input name="value" type="text" className="form-control" placeholder="I'm Looking for"
                   value={this.state.value} onChange={this.handleChange}>
@@ -52,12 +53,12 @@ class ExploreForm extends Component {
               </Col>
               <Col md="auto p-2">
                 <button type="button" className="btn btn-primary btn-outline"
-                  onClick={this.handleSubmit}>Search
+                  >Search
                 </button>
-                <button type="button" className="btn btn-primary btn-outline"
+                {/* <button type="button" className="btn btn-primary btn-outline"
                   style={{ marginLeft: 10 }}
                   onClick={this.handleRemove}>Cancel
-                </button>
+                </button> */}
               </Col>
             </form>
           </div>
