@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-
+import { Container, Row, Col } from 'reactstrap';
 
 
 class ExploreForm extends Component {
@@ -29,12 +29,17 @@ class ExploreForm extends Component {
   render() {
 
     return (
-        <div>
+      // <div>
+      <Container id="search-form" className="text-center p-5">
+        <h1 className="m-3">Find Places</h1>
+        <Row className="m-5">
           <form onSubmit={this.handleSubmit}>
-            <div className="input-group mb-3">
+            {/* <div className="input-group mb-3"> */}
+            <Col xs="6" sm="4">
               <input name="value" type="text" className="form-control" placeholder="I'm Looking for"
                 value={this.state.value} onChange={this.handleChange}>
               </input>
+              </Col>
               <input name="location" type="text" className="form-control" placeholder="City"
                 value={this.state.location} onChange={this.handleChange}>
               </input>
@@ -43,9 +48,11 @@ class ExploreForm extends Component {
                   onClick={this.handleSubmit}><i className="fas fa-search"></i>
                 </button>
               </div>
-            </div>
+            {/* </div> */}
           </form>
-        </div>
+        </Row>
+      </Container>
+      // </div>
     );
   }
 }

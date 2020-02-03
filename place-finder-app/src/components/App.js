@@ -85,21 +85,21 @@ class App extends Component {
 
     return (
       <div>
-        <Container className="text-center p-5">
-          <h1 className="m-3">Find Places</h1>
-          <Row>
-            <Col sm="12" md={{ size: 6, offset: 3 }}>
+        {/* <Container className="text-center p-5">
+          <h1 className="m-3">Find Places</h1> */}
+          {/* <Row>
+            <Col sm="12" md={{ size: 6, offset: 3 }}> */}
               <ExploreForm
                 onSubmit={this.handleSubmit}
               />
-            </Col>
-          </Row>
+            {/* </Col>
+          </Row> */}
 
           <ul>
             {this.renderVenueList()}
           </ul>
 
-        </Container>
+        {/* </Container> */}
 
 
 
