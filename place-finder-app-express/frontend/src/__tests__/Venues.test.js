@@ -16,3 +16,12 @@ test('Venues Component renders the venue and location inside it', () => {
 });
 
 
+
+
+/*
+What if...
+- Bad data?
+- Missing location / name?
+- null / undefined props?
+- What if... non-ASCII name / location
+*/

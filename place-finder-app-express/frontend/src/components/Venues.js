@@ -1,13 +1,14 @@
 import React from 'react';
 import { Container } from 'reactstrap';
 
-export default (props) => (
+
+export default ({name, location}) => (
   <Container id="venue-list" className="text-center">
     <h5>
-      {props.name}
+      {name}
     </h5>
     <p className="lead">
-      {props.location}
+      {location}
     </p>
   </Container>
 );

@@ -18,7 +18,7 @@ class VenuesDisplay extends Component {
         if (data.data.meta.code === 400) {
           this.setState({
             isLoading: false,
-            venueNotFound: '400'
+            venueNotFound: '400'   //no search result
           });
         }
         else {
