@@ -13,7 +13,7 @@ The app is made with bootstrap 4 to create a dynamic and responsive user experie
 
 ## How to run the application
 
-Clone the project locally `/place-finder-app`
+Clone the project locally `/place-finder-app-express`
 
 You will need `Node.js` installed on your computer
 
