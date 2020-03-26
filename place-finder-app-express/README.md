@@ -15,10 +15,12 @@ The app is made with bootstrap 4 to create a dynamic and responsive user experie
 
 Clone the project locally
 
+You will need Node.js installed on your computer
+
 Go into the project folder then go into /frontend folder and /backend folder to run npm install in both folders to get the packages
 
 
-In order to run the application, go into /backend folder and type node server.js to start up the Express server. Then go into /frontend folder and type npm start to launch the site. The application will be launched in localhost:3000
+In order to run the application, you need two terminal windows opened. One for /backend folder, go into /backend folder and type node server.js to start up the Express server, you will see port 5000 is waiting for connection to the frontend React. Then use another terminal window to go into /frontend folder and type npm start to launch the site. The application will be launched in localhost:3000
 
 
 
