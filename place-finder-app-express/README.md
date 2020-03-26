@@ -4,7 +4,7 @@
 
 This Place Finder app will show nearby recommended places based on user's interest and location.
 User can search by what they are looking for (ie. food, pub ..etc.) and a location to find a list of nearby recommended places.
-If user don't know what they are looking for, they can search by their interest of location and the app will show a list of recommended places in that area.
+If user don't know what they are looking for, they can search by their location and the app will show a list of recommended places in that area.
 
 This app is created by using backend Express server that fetches data from Foursquare API, and a frontend React client that receives data from the backend.
 
@@ -13,14 +13,13 @@ The app is made with bootstrap 4 to create a dynamic and responsive user experie
 
 ## How to run the application
 
-Clone the project locally
+Clone the project locally `/place-finder-app`
 
-You will need Node.js installed on your computer
+You will need `Node.js` installed on your computer
 
-Go into the project folder then go into /frontend folder and /backend folder to run npm install in both folders to get the packages
+In order to run the application, you need two terminal windows opened. First, open a terminal window go into the project folder `/frontend` run `npm install`, then open another terminal window and go into `/backend` folder to `run npm install` to get the packages.
 
-
-In order to run the application, you need two terminal windows opened. One for /backend folder, go into /backend folder and type node server.js to start up the Express server, you will see port 5000 is waiting for connection to the frontend React. Then use another terminal window to go into /frontend folder and type npm start to launch the site. The application will be launched in localhost:3000
+Go into `/backend` folder and type `node server.js` to start up the Express server, you will see [http://localhost:5000](http://localhost:5000) is waiting for connection to the frontend React. Then use another terminal window to go into `/frontend` folder and type `npm start` to launch the site. The application will be launched in [http://localhost:3000](http://localhost:3000)
 
 
 
