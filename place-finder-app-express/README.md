@@ -3,7 +3,7 @@
 ## Summary
 
 This Place Finder app will show nearby recommended places based on user's interest and location.
-User can search by what they are looking for (ie. food, pub ..etc.) and a location to find a list of nearby recommended places.
+User can search by what they want to look for (ie. food, pub ..etc.) and a location to find a list of nearby recommended places.
 If user don't know what they are looking for, they can search by their location and the app will show a list of recommended places in that area.
 
 This app is created by using backend Express server that fetches data from Foursquare API, and a frontend React client that receives data from the backend.
